@@ -1,0 +1,125 @@
+/* ========= RESOURCES ========== */
+
+/*
+Colors {
+    navigation-text: #000;
+    button-text: #737373;
+    button-background: #f2f2f2;
+    button-border: #f2f2f2;
+    button-hover-text: #757575;
+    button-hover-background: #f8f8f8;
+    button-hover-outline: #e4e4e4
+    footer-background: #f2f2f2;
+    footer-border-top: #e4e4e4;
+    footer-text: #666;
+}
+*/
+
+/* ========= LAYOUT ========== */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, "Times New Roman";
+    font-size: small;
+    background: #fff;
+    color: #222;
+}
+
+/* ========= NAVIGATION ========== */
+
+ul {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 16px;
+    vertical-align: middle;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li:last-child {
+    margin-right: 25px;
+}
+
+.user-image {
+    border-radius: 50%;
+}
+
+/* ========= MAIN ========== */
+
+.main {
+    padding-top: 125px;
+    height: 240px;
+}
+
+.main img {
+    margin-bottom: 15px;
+}
+
+.searchBox {
+    margin: 10px 0;
+    width: 550px;
+    padding: 10px;
+    /* background: url(../images/mic.gif) no-repeat right; */
+}
+
+.searchButton {
+    font-weight: bold;
+    margin: 21px 9px 0 0;
+    padding: 11px 15px;
+    color: #737373;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    border: 0;
+}
+
+.searchButton:hover {
+    color: #000;
+    background-color: #f8f8f8;
+    outline: 1px solid #757575;
+}
+
+/* ========= FOOTER ========== */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 13px 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    margin: 0 12px;
+    text-decoration: none;
+    display: inline-block;
+    color: #666;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footerRight {
+    float: right;
+    margin-right: 25px;
+}
+
+.footerLeft {
+    display: block;
+    margin-left: 30px;
+    text-align: left;
+}
